@@ -25,7 +25,7 @@ plt.xlabel('Районы Санкт-Петербурга')
 plt.ylabel('Цена')
 plt.title('Cтоимость квартир по районам СПб')
 plt.xticks(xy, districts)
-ig.autofmt_xdate(rotation=45) #убирает смещение 
+fig.autofmt_xdate(rotation=45) #убирает смещение ,поворачивая метки по x
 plt.legend()
 plt.savefig('img.png', format='png')
 plt.show()
